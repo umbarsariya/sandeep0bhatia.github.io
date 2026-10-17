@@ -3,31 +3,250 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Saga Stories</title>
-<meta name="description" content="Saga Stories makes a short animated bedtime story for children every day and publishes it to its YouTube channel.">
+<title>Story Saga</title>
+<meta name="description" content="Story Saga (Kid Stories) is a YouTube channel with a new animated bedtime story every day, starring Mo and his friends. Each story ends with a gentle lesson for children aged 4 to 8.">
+<meta property="og:title" content="Story Saga - a new bedtime story every day">
+<meta property="og:description" content="Gentle animated adventures with Mo and friends, each ending with a kind lesson.">
+<meta property="og:image" content="https://umbarsariya.github.io/images/avatar.jpg">
+<link rel="icon" href="images/avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="images/avatar.jpg" alt="">Story Saga</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#stories">Stories</a>
+      <a href="#friends">Meet the friends</a>
+      <a href="#parents">For parents</a>
+      <a class="btn btn-gold" href="https://www.youtube.com/@storycreatesglory?sub_confirmation=1">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-  <h1>Saga Stories</h1>
-  <p class="lede">A new animated bedtime story for children every day.</p>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="stars" aria-hidden="true"></div>
+    <div class="moon" aria-hidden="true"></div>
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">★ New story every day</span>
+        <h1 id="hero-title"><span>Story Saga</span></h1>
+        <p class="lede">Cosy animated bedtime stories starring Mo and his friends. Every adventure
+        ends with a gentle lesson for little ones aged 4 to 8.</p>
+        <div class="cta-row">
+          <a class="btn btn-gold" href="https://www.youtube.com/@storycreatesglory">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+            Watch on YouTube
+          </a>
+          <a class="btn btn-ghost" href="#friends">Meet the friends</a>
+        </div>
+        <p class="handle">Story Saga (Kid Stories) · @storycreatesglory</p>
+      </div>
+      <div class="hero-art">
+        <img class="badge" src="images/avatar.jpg" alt="The Story Saga logo: a girl and a friendly dragon inside a glowing storybook wreath">
+        <img class="peek peek-1" src="images/cast/mo.jpg" alt="Mo the red panda">
+        <img class="peek peek-2" src="images/cast/luna.jpg" alt="Luna the bunny">
+      </div>
+    </div>
+    <div class="hill" aria-hidden="true"></div>
+  </section>
 
-  <p>Saga Stories is a small personal project. Each day it writes a short story with a gentle
-  moral, illustrates and animates it with AI tools, narrates it, and publishes the finished
-  video to its own YouTube channel, <strong>Story Saga (Kid Stories)</strong>.</p>
-
-  <div class="card">
-    <p style="margin:0">The Saga Stories app uses Google sign-in only so it can upload to that one
-    channel, which belongs to the app's owner. It does not ask anyone else to sign in, and it does
-    not collect information about viewers.</p>
+  <div class="wrap">
+    <div class="promises">
+      <article class="promise">
+        <div class="icon" style="background:#fff1cf;color:#e08a00">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </div>
+        <h3>A story every evening</h3>
+        <p>A brand-new animated tale arrives on the channel every day, just right before bed.</p>
+      </article>
+      <article class="promise">
+        <div class="icon" style="background:#ffe4d1;color:#e86a1c">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+        </div>
+        <h3>Friends kids love</h3>
+        <p>Six bright, huggable characters return in every episode, so children meet old friends.</p>
+      </article>
+      <article class="promise">
+        <div class="icon" style="background:#e6f6d6;color:#4e9a17">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <h3>A kind lesson</h3>
+        <p>Honesty, sharing, courage, patience: every story closes on one warm, simple moral.</p>
+      </article>
+    </div>
   </div>
 
-  <p>Read the <a href="privacy.html">privacy policy</a> to see what data the app uses and why.</p>
+  <section id="stories" aria-labelledby="stories-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Latest stories</span>
+        <h2 id="stories-title">Tonight's bedtime tales</h2>
+        <p>Short, gentle adventures, about a minute each. Tap one to watch it on YouTube.</p>
+      </div>
+      <div class="stories">
+        <a class="story" href="https://www.youtube.com/shorts/jqj30c6T0Xs">
+          <img src="images/stories/jqj30c6T0Xs.jpg" alt="" loading="lazy">
+          <span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="title"><span class="tag" style="background:var(--bolt)">Bolt</span><br>Bolt and the Big Rolling Melon</span>
+        </a>
+        <a class="story" href="https://www.youtube.com/shorts/ZhqukxX6L5s">
+          <img src="images/stories/ZhqukxX6L5s.jpg" alt="" loading="lazy">
+          <span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="title"><span class="tag" style="background:var(--bolt)">Bolt</span><br>Bolt and the Shimmering Shells</span>
+        </a>
+        <a class="story" href="https://www.youtube.com/shorts/Q5MyK6HOIKA">
+          <img src="images/stories/Q5MyK6HOIKA.jpg" alt="" loading="lazy">
+          <span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="title"><span class="tag" style="background:var(--ziggy)">Ziggy</span><br>Ziggy and the Tipping Stone</span>
+        </a>
+        <a class="story" href="https://www.youtube.com/shorts/Xjc6UEvXSuU">
+          <img src="images/stories/Xjc6UEvXSuU.jpg" alt="" loading="lazy">
+          <span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="title"><span class="tag" style="background:var(--mo)">Mo</span><br>Mo and the Rainbow Stone</span>
+        </a>
+        <a class="story" href="https://www.youtube.com/shorts/6L_WPG4n6Bw">
+          <img src="images/stories/6L_WPG4n6Bw.jpg" alt="" loading="lazy">
+          <span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="title"><span class="tag" style="background:var(--luna)">Luna</span><br>Luna and the Shadow Moth</span>
+        </a>
+        <a class="story" href="https://www.youtube.com/shorts/MOPXZLHwCV8">
+          <img src="images/stories/MOPXZLHwCV8.jpg" alt="" loading="lazy">
+          <span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="title"><span class="tag" style="background:var(--ollie)">Ollie</span><br>Ollie and the Golden Sun-Berry</span>
+        </a>
+        <a class="story" href="https://www.youtube.com/shorts/bv9p0d-Ge7k">
+          <img src="images/stories/bv9p0d-Ge7k.jpg" alt="" loading="lazy">
+          <span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="title"><span class="tag" style="background:var(--coco)">Coco</span><br>Coco and the Wobbly Pebble Tower</span>
+        </a>
+        <a class="story" href="https://www.youtube.com/shorts/QGtMG1Obw4E">
+          <img src="images/stories/QGtMG1Obw4E.jpg" alt="" loading="lazy">
+          <span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="title"><span class="tag" style="background:var(--bolt)">Bolt</span><br>Bolt and the Singing Reed</span>
+        </a>
+      </div>
+      <p class="center"><a class="btn btn-gold" href="https://www.youtube.com/@storycreatesglory/shorts">See every story</a></p>
+    </div>
+  </section>
 
-  <footer>
-    <a href="privacy.html">Privacy policy</a>
-    <a href="https://github.com/umbarsariya/umbarsariya.github.io/issues">Contact</a>
-  </footer>
+  <section id="friends" class="cast-band" aria-labelledby="friends-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Meet the friends</span>
+        <h2 id="friends-title">Mo &amp; Friends</h2>
+        <p>Six best friends with their own colours, voices and big feelings. Any one of them can be
+        the star of tonight's story.</p>
+      </div>
+      <div class="cast">
+        <article class="friend f-mo">
+          <div class="portrait"><img src="images/cast/mo.jpg" alt="Mo, a tangerine-orange baby red panda with green eyes and a yellow backpack" loading="lazy"></div>
+          <div class="body">
+            <h3>Mo</h3>
+            <div class="species">Baby red panda · the leader</div>
+            <p>Endlessly curious and brave. Mo always asks "what if?" and is first to set off on an adventure.</p>
+          </div>
+        </article>
+        <article class="friend f-luna">
+          <div class="portrait"><img src="images/cast/luna.jpg" alt="Luna, a lavender bunny with a star on her tummy and a teal bow" loading="lazy"></div>
+          <div class="body">
+            <h3>Luna</h3>
+            <div class="species">Lavender bunny · the dreamer</div>
+            <p>Gentle and imaginative. Luna loves stars, songs and making up stories of her own.</p>
+          </div>
+        </article>
+        <article class="friend f-ziggy">
+          <div class="portrait"><img src="images/cast/ziggy.jpg" alt="Ziggy, a lime-green baby chameleon with a red bandana" loading="lazy"></div>
+          <div class="body">
+            <h3>Ziggy</h3>
+            <div class="species">Baby chameleon · the joker</div>
+            <p>Silly, giggly and full of jokes. His cheeks glow rainbow colours with his feelings.</p>
+          </div>
+        </article>
+        <article class="friend f-ollie">
+          <div class="portrait"><img src="images/cast/ollie.jpg" alt="Ollie, a sky-blue baby owl with round orange glasses and a satchel" loading="lazy"></div>
+          <div class="body">
+            <h3>Ollie</h3>
+            <div class="species">Baby owl · the thinker</div>
+            <p>A thoughtful little know-it-all who is learning it's okay not to know everything.</p>
+          </div>
+        </article>
+        <article class="friend f-coco">
+          <div class="portrait"><img src="images/cast/coco.jpg" alt="Coco, a coral-pink baby elephant with polka-dot ears and a daisy" loading="lazy"></div>
+          <div class="body">
+            <h3>Coco</h3>
+            <div class="species">Baby elephant · the big heart</div>
+            <p>Big-hearted and gentle, the strongest of the friends and always the first to give a hug.</p>
+          </div>
+        </article>
+        <article class="friend f-bolt">
+          <div class="portrait"><img src="images/cast/bolt.jpg" alt="Bolt, a sunshine-yellow duckling in red rain boots" loading="lazy"></div>
+          <div class="body">
+            <h3>Bolt</h3>
+            <div class="species">Duckling · the speedster</div>
+            <p>Zippy and impatient, always racing ahead, and learning to slow down and listen.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="parents" aria-labelledby="parents-title">
+    <div class="wrap parents">
+      <div class="photo">
+        <img src="images/stories/bv9p0d-Ge7k.jpg" alt="Coco the elephant and Ollie the owl sharing a glowing berry on a mossy log" loading="lazy">
+      </div>
+      <div>
+        <span class="kicker">For parents</span>
+        <h2 id="parents-title" style="font-size:clamp(2rem,4.5vw,2.6rem)">Calm, gentle screen time</h2>
+        <ul class="checklist">
+          <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+            <span><strong>Made for kids.</strong> Every video is marked "made for kids" on YouTube, written for ages 4 to 8.</span></li>
+          <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+            <span><strong>Short and soothing.</strong> About a minute long, with a warm storyteller's voice and no scary moments.</span></li>
+          <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+            <span><strong>A lesson to talk about.</strong> Each story ends on one simple moral you can chat about at bedtime.</span></li>
+          <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>
+            <span><strong>Made with care and AI tools.</strong> Stories are written, illustrated and animated with the help of AI, and labelled as such on YouTube.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="cta-title">
+    <div class="wrap">
+      <div class="cta-band">
+        <div class="stars" aria-hidden="true"></div>
+        <div class="faces" aria-hidden="true">
+          <img src="images/cast/mo.jpg" alt=""><img src="images/cast/luna.jpg" alt=""><img src="images/cast/ziggy.jpg" alt=""><img src="images/cast/ollie.jpg" alt=""><img src="images/cast/coco.jpg" alt=""><img src="images/cast/bolt.jpg" alt="">
+        </div>
+        <h2 id="cta-title">Never miss a bedtime story</h2>
+        <p>Subscribe to Story Saga on YouTube and a new adventure with Mo and friends will be waiting every day.</p>
+        <a class="btn btn-gold" href="https://www.youtube.com/@storycreatesglory?sub_confirmation=1">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          Subscribe on YouTube
+        </a>
+      </div>
+    </div>
+  </section>
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="images/avatar.jpg" alt="">Story Saga</a>
+    <nav aria-label="Footer">
+      <a href="https://www.youtube.com/@storycreatesglory">YouTube</a>
+      <a href="privacy.html">Privacy policy</a>
+      <a href="https://github.com/umbarsariya/umbarsariya.github.io/issues">Contact</a>
+    </nav>
+    <small>© 2026 Story Saga (Kid Stories). Characters and stories are original to the channel.</small>
+  </div>
+</footer>
+
 </body>
 </html>

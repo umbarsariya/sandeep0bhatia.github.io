@@ -4,62 +4,129 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Privacy Policy</title>
-<meta name="description" content="How the Saga Stories app uses Google and YouTube data.">
+<meta name="description" content="How the Story Saga publishing app uses Google and YouTube data, and what it never collects.">
+<link rel="icon" href="images/avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="images/avatar.jpg" alt="">Story Saga</a>
+    <nav class="nav" aria-label="Main">
+      <a href="./#stories">Stories</a>
+      <a href="./#friends">Meet the friends</a>
+      <a class="btn btn-gold" href="https://www.youtube.com/@storycreatesglory?sub_confirmation=1">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-  <h1>Privacy policy</h1>
-  <p class="lede">Saga Stories · Last updated 13 October 2026</p>
+  <section class="page-hero" aria-labelledby="title">
+    <div class="stars" aria-hidden="true"></div>
+    <div class="wrap">
+      <img class="mascot" src="images/cast/ollie.jpg" alt="Ollie the owl, the friend who loves facts">
+      <div>
+        <h1 id="title">Privacy policy</h1>
+        <p>Story Saga (Kid Stories) · <span class="updated">Last updated 17 October 2026</span></p>
+      </div>
+    </div>
+    <div class="hill" aria-hidden="true"></div>
+  </section>
 
-  <p>Saga Stories is a personal automation that publishes a daily animated children's story to a
-  single YouTube channel owned by the person who runs the app. This policy explains what Google
-  user data the app uses and how.</p>
+  <div class="wrap">
+    <div class="summary">
+      <div class="card">
+        <div class="icon" style="background:#e6f6d6;color:#4e9a17">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Nothing from viewers</h3>
+        <p>We collect no information from children, parents or anyone who watches the channel.</p>
+      </div>
+      <div class="card">
+        <div class="icon" style="background:#dcf0fd;color:#1f7fbf">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <h3>One account only</h3>
+        <p>The app signs in to a single YouTube channel, owned by its creator, to upload the daily story.</p>
+      </div>
+      <div class="card">
+        <div class="icon" style="background:#ffe2e0;color:#d2463f">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/></svg>
+        </div>
+        <h3>Never sold or shared</h3>
+        <p>Google data is never sold, shared with others or used for advertising.</p>
+      </div>
+    </div>
 
-  <h2>Who signs in</h2>
-  <p>Only the channel owner signs in, once, to authorise uploads. The app has no other users and
-  no public sign-in.</p>
+    <article class="policy">
+      <p>Story Saga (Kid Stories) is a YouTube channel that publishes a new animated bedtime story for
+      children every day. The stories are produced and uploaded by a small app run by the channel's
+      creator, called the Story Saga publishing app below. This policy explains what Google user
+      data that app uses, and why.</p>
 
-  <h2>Google data the app uses</h2>
-  <p>With the owner's permission, the app uses the YouTube Data API to:</p>
-  <ul>
-    <li>upload the day's video and set its title, description, tags and thumbnail;</li>
-    <li>list the channel's recent uploads, so it does not publish the same day twice or repeat a title;</li>
-    <li>create and update the channel's playlists;</li>
-    <li>read the channel's own YouTube Analytics reports, to see which stories viewers enjoy.</li>
-  </ul>
-  <p>It does not read the owner's email, contacts, files, or any data outside YouTube, and it does
-  not access other people's channels or viewer information.</p>
+      <h2>Who signs in</h2>
+      <p>Only the channel's owner signs in, once, to let the app upload to the Story Saga channel.
+      The app has no other users, no accounts and no public sign-in.</p>
 
-  <h2>How the data is stored</h2>
-  <p>The OAuth token that grants this access is stored as an encrypted secret in the app's private
-  deployment and on the owner's own computer. Channel data the app reads is used only while a
-  daily run is in progress and is not kept in a database.</p>
+      <h2>Google data the app uses</h2>
+      <p>With the owner's permission, the app uses the YouTube Data API and YouTube Analytics API to:</p>
+      <ul>
+        <li>upload each day's story and set its title, description, tags and thumbnail;</li>
+        <li>list the channel's recent uploads, so it never publishes the same day twice or repeats a title;</li>
+        <li>create and update the channel's playlists, such as "Mo &amp; Friends: All Stories";</li>
+        <li>read the channel's own analytics reports, to learn which stories viewers enjoy most.</li>
+      </ul>
+      <p>It does not read the owner's email, contacts, files or any data outside YouTube, and it does
+      not access other people's channels or any information about viewers.</p>
 
-  <h2>Sharing</h2>
-  <p>Google user data is not sold, shared with third parties, or used for advertising. The app's
-  use of information received from Google APIs follows the
-  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
-  User Data Policy</a>, including its Limited Use requirements, and YouTube's
-  <a href="https://www.youtube.com/t/terms">Terms of Service</a>. Google's own handling of data is
-  described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+      <h2>How the data is stored</h2>
+      <p>The sign-in token that grants this access is kept as an encrypted secret in the app's
+      private deployment and on the owner's own computer. Channel information the app reads is used
+      only while the day's story is being published and is not stored in any database.</p>
 
-  <h2>Children</h2>
-  <p>The videos are made for children and are marked "made for kids" on YouTube. The app does not
-  collect any information from children or other viewers.</p>
+      <h2>Sharing</h2>
+      <p>Google user data is not sold, not shared with third parties and not used for advertising.
+      The app's use of information received from Google APIs follows the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+      User Data Policy</a>, including its Limited Use requirements, and the
+      <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's own handling
+      of data is described in the <a href="https://policies.google.com/privacy">Google Privacy
+      Policy</a>.</p>
 
-  <h2>Revoking access</h2>
-  <p>The owner can revoke the app's access at any time at
-  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
-  When access is revoked, the stored token stops working.</p>
+      <h2>Children</h2>
+      <p>Every Story Saga video is made for children and is marked "made for kids" on YouTube, which
+      limits data collection and features on YouTube's side. Story Saga itself collects no
+      information from children or any other viewer, and this website sets no cookies and runs no analytics
+      or tracking scripts.</p>
 
-  <h2>Contact</h2>
-  <p>Questions about this policy can be raised by
-  <a href="https://github.com/umbarsariya/umbarsariya.github.io/issues">opening an issue</a>.</p>
+      <h2>Revoking access</h2>
+      <p>The owner can remove the app's access at any time at
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+      The stored token stops working as soon as access is removed.</p>
 
-  <footer>
-    <a href="index.html">Home</a>
-  </footer>
+      <h2>Changes and contact</h2>
+      <p>If this policy changes, the new version will be posted on this page with a new date.
+      Questions can be raised by
+      <a href="https://github.com/umbarsariya/umbarsariya.github.io/issues">opening an issue</a>.</p>
+    </article>
+  </div>
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="images/avatar.jpg" alt="">Story Saga</a>
+    <nav aria-label="Footer">
+      <a href="https://www.youtube.com/@storycreatesglory">YouTube</a>
+      <a href="./">Home</a>
+      <a href="https://github.com/umbarsariya/umbarsariya.github.io/issues">Contact</a>
+    </nav>
+    <small>© 2026 Story Saga (Kid Stories). Characters and stories are original to the channel.</small>
+  </div>
+</footer>
+
 </body>
 </html>
